@@ -2,7 +2,7 @@
   "name": "arboles",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "test": "jest --collectCoverage=false DataStructureIII.test.js",
     "grade": "jest --useStderr --json --outputFile=./tests/result.json"
   },
@@ -11,5 +11,8 @@
   },
   "author": "prodevs desarrollo",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "arboles": "file:"
+  }
 }
